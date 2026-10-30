@@ -1,0 +1,12 @@
+{
+  "name": "cynbit-backend-audit",
+  "version": "1.0.0",
+  "description": "Passive backend technical audit and architectural review of cynbit.in — Backend Developer Intern Assessment",
+  "scripts": {
+    "demo:cuid": "node improvements/01-cuid-v2-migration.js",
+    "demo:auth": "node improvements/02-capability-url-auth.js"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2"
+  }
+}
